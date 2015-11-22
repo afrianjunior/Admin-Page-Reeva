@@ -60,19 +60,19 @@ a {
 b {
   font-family: "opensans-bold"; }
 
-input {
+input, textarea {
   outline: none;
   display: inline-block;
   border: 1px solid #ababab;
   border-radius: 5px;
   padding: 5px 10px;
   margin: 5px 0px;
-  width: 300px;
-  box-shadow: none; }
-  input:focus {
+  box-shadow: none;
+  width: 100%; }
+  input:focus, textarea:focus {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    input:focus::-webkit-input-placeholder {
+    input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease;
       padding-left: 100px;
@@ -155,6 +155,8 @@ header {
   text-align: center; }
   .home h1 {
     font-size: 70px; }
+  .home .login input[type="text"], .home .login input[type="password"] {
+    width: 300px; }
 
 main {
   margin-left: 200px;
@@ -187,4 +189,7 @@ main {
           padding: 2.5px 0px;
           color: #ecf0f1; }
 
-/*# sourceMappingURL=unemi.css.map */
+.quick .lastest-applicant .table-responsive table tbody tr td:last-child {
+  font-size: 11px;
+  color: #ababab;
+  font-style: italic; }
