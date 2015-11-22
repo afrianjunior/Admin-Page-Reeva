@@ -16,15 +16,15 @@ b
   font-family: 'opensans-bold'
 
 
-input
+input, textarea
   outline: none
   display: inline-block
   border: 1px solid $smoke
   border-radius: 5px
   padding: 5px 10px
   margin: 5px 0px
-  width: 300px
   box-shadow: none
+  width: 100%
 
   &:focus
     +transition(0.3s)
@@ -124,10 +124,7 @@ header
       +transition(0.3s)
       position: relative
     
-      
-        
-          
-            
+ 
         
 .home
   width: 40%
@@ -137,6 +134,10 @@ header
   h1
     font-size: 70px
     
+  .login
+    
+    input[type="text"], input[type="password"]
+      width: 300px    
     
 main
   margin-left: 200px
@@ -178,3 +179,22 @@ main
           text-align: right
           padding: 2.5px 0px
           color: $cloud
+        
+.quick
+  
+  .latest-applicant
+    
+    .table-responsive
+        
+      table
+        
+        tbody
+        
+          tr
+            
+            td
+                          
+              &:last-child
+                font-size: 11px
+                color: $smoke
+                font-style: italic
