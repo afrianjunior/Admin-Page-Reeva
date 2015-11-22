@@ -60,6 +60,20 @@ a {
 b {
   font-family: "opensans-bold"; }
 
+.accepted {
+  background: #62bc00; }
+
+.rejected {
+  background: #da0000; }
+
+table tbody tr {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  table tbody tr:hover {
+    font-size: 18px; }
+  table tbody tr:last-child a {
+    font-style: italic; }
+
 input, textarea {
   outline: none;
   display: inline-block;
@@ -189,7 +203,31 @@ main {
           padding: 2.5px 0px;
           color: #ecf0f1; }
 
-.quick .lastest-applicant .table-responsive table tbody tr td:last-child {
+.quick .latest-applicant .table-responsive table tbody tr td:last-child {
   font-size: 11px;
   color: #ababab;
   font-style: italic; }
+
+.detail {
+  margin: 30px 0px 0px 0px; }
+  .detail .detail-app .table-responsive {
+    margin-left: 15px; }
+  .detail .detail-app .detail-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .detail .detail-app .detail-button .btn {
+      width: 50%;
+      border-radius: 0px;
+      font-size: 22px;
+      margin: 2px;
+      color: #ecf0f1; }
+  .detail .user-detail {
+    border: 1px solid #ababab;
+    padding: 20px;
+    font-size: 18px; }
