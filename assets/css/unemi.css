@@ -225,8 +225,13 @@ main {
   .detail .detail-app .table-responsive {
     margin-left: 15px; }
   .detail .detail-app .detail-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
     justify-content: space-around; }
     .detail .detail-app .detail-button .btn {
       width: 50%;
@@ -238,5 +243,3 @@ main {
     border: 1px solid #ababab;
     padding: 20px;
     font-size: 18px; }
-
-/*# sourceMappingURL=unemi.css.map */
