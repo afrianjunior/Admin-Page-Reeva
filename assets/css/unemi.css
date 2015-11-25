@@ -54,7 +54,7 @@ a {
   color: #313131;
   text-decoration: none; }
   a:hover {
-    color: #e84c3d;
+    color: #ff7800;
     text-decoration: none; }
 
 b {
@@ -66,8 +66,14 @@ b {
 .accepted {
   background: #62bc00; }
 
+.accepted-text {
+  color: #62bc00; }
+
 .rejected {
   background: #da0000; }
+
+.rejected-text {
+  color: #da0000; }
 
 .edit {
   background: #14e087;
