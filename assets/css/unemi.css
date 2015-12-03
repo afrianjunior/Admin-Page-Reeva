@@ -88,7 +88,7 @@ b {
   border-radius: 0px; }
 
 table tbody tr:hover {
-  font-size: 18px; }
+  font-weight: bold; }
 table tbody tr:last-child a {
   font-style: italic; }
 
